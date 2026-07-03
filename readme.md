@@ -25,12 +25,12 @@ cd SaveSafariTabs
 
 2. Make the script executable:
 ```bash
-chmod +x save-safari-tabs.sh
+chmod +x saveSafariTabs.sh
 ```
 
 3. (Optional) Add alias to your shell config for quick access:
 ```bash
-echo "alias savetabs='~/path/to/save-safari-tabs.sh'" >> ~/.zshrc
+echo "alias savetabs='~/path/to/saveSafariTabs.sh'" >> ~/.zshrc
 source ~/.zshrc
 ```
 
@@ -38,7 +38,7 @@ source ~/.zshrc
 
 Run the script:
 ```bash
-./save-safari-tabs.sh
+./saveSafariTabs.sh
 ```
 
 Or if you added the alias:
@@ -51,7 +51,7 @@ A markdown file (`safari-tabs.md`) appears on your Desktop with all open tabs as
 ## Options
 
 ### Bash Script (Recommended)
-**File:** `save-safari-tabs.sh`
+**File:** `saveSafariTabs.sh`
 
 - Modern, reliable
 - Works on macOS Monterey+
@@ -59,7 +59,7 @@ A markdown file (`safari-tabs.md`) appears on your Desktop with all open tabs as
 - Output: Clean markdown format
 
 ### AppleScript (Legacy)
-**File:** `Save-Safari-Tabs.scpt`
+**File:** `SaveSafariTabs.scpt`
 
 - Older approach
 - Still works, but less flexible
@@ -92,4 +92,3 @@ I built this for:
 
 ## License
 
-MIT
