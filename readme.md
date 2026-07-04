@@ -26,6 +26,7 @@ cd SaveSafariTabs
 2. Make the script executable:
 ```bash
 chmod +x saveSafariTabs.sh
+chmod +x saveFirefoxTabs.sh
 ```
 
 3. (Optional) Add alias to your shell config for quick access:
@@ -39,6 +40,7 @@ source ~/.zshrc
 Run the script:
 ```bash
 ./saveSafariTabs.sh
+./saveFirefoxTabs.sh
 ```
 
 Or if you added the alias:
